@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #333); /* Dark gradient background */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace; /* Mechanical font */
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.introduction {
+    margin-top: 20px;
+}
+
+.introduction h2 {
+    text-align: center;
+}
+
+.introduction p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.featured-in {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.featured-in h2 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.card {
+    background: #2c2c2c; /* Card background */
+    padding: 0;
+    margin: 3%;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card img 
+{
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #ccc;
+}
